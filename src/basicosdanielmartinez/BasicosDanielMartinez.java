@@ -12,6 +12,7 @@ package basicosdanielmartinez;
 
 
 public class BasicosDanielMartinez {
+
  /**
      * Método para mostrar ejemplos de tipos numericos.
      */
@@ -35,8 +36,23 @@ public class BasicosDanielMartinez {
         System.out.print("Valor doble ");
         System.out.println(doble);
     }
+    
+    public static void cadenas() {
+   //Estos son los tipos básicos
+        String cadena;
+
+        //Ejemplos de asignación de valores a las variables de tipos básicos
+        cadena="prueba tipo cadenas";
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        
+        System.out.println(cadena);
+}
  public static void main(String[] args) {
         numericos();  // Llamada al método
+
+        cadenas();
+
     }
     
 }
