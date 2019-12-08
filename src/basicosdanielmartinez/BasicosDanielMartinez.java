@@ -11,11 +11,24 @@ package basicosdanielmartinez;
  */
 public class BasicosDanielMartinez {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static void logicos() {
+
+       boolean logico;
+       
+       logico=true;
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        if(logico==false){
+        System.out.println("La variable logico es falsa");
+        }
+        if(logico==true){
+         System.out.println("La variable logico es verdadera");   
+        }
+        
+
+    }
     public static void main(String[] args) {
-        // TODO code application logic here
+        logicos();
     }
     
 }
