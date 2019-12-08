@@ -13,6 +13,7 @@ package basicosdanielmartinez;
 
 public class BasicosDanielMartinez {
 
+
  /**
      * Método para mostrar ejemplos de tipos numericos.
      */
@@ -48,11 +49,32 @@ public class BasicosDanielMartinez {
         
         System.out.println(cadena);
 }
+    
+    public static void logicos() {
+
+       boolean logico;
+       
+       logico=true;
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        if(logico==false){
+        System.out.println("La variable logico es falsa");
+        }
+        if(logico==true){
+         System.out.println("La variable logico es verdadera");   
+        }
+        
+
+    }
  public static void main(String[] args) {
         numericos();  // Llamada al método
 
         cadenas();
+        
+        logicos();
 
-    }
+
     
+}
+ 
 }
