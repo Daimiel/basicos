@@ -10,12 +10,20 @@ package basicosdanielmartinez;
  * @author Daimiel
  */
 public class BasicosDanielMartinez {
+public static void cadenas() {
 
-    /**
-     * @param args the command line arguments
-     */
+        //Estos son los tipos básicos
+        String cadena;
+
+        //Ejemplos de asignación de valores a las variables de tipos básicos
+        cadena="prueba tipo cadenas";
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        
+        System.out.println(cadena);
+    }
     public static void main(String[] args) {
-        // TODO code application logic here
+        cadenas();
     }
     
 }
